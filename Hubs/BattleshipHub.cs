@@ -162,12 +162,6 @@ public class BattleshipHub : Hub
         return false;
     }
 
-
-    public GameRoom[] GetGameRooms()
-    {
-        return _games.Values.ToArray();
-    }
-
     public string GetOpponent()
     {
         try
